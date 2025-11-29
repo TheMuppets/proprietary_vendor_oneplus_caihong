@@ -125,6 +125,16 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/caihong/proprietary/odm/lib64/camera/revision.txt:$(TARGET_COPY_OUT_ODM)/lib64/camera/revision.txt \
     vendor/oneplus/caihong/proprietary/odm/usr/idc/pogo_touchpad.idc:$(TARGET_COPY_OUT_ODM)/usr/idc/pogo_touchpad.idc \
     vendor/oneplus/caihong/proprietary/odm/vendor/etc/wifi/WCNSS_qcom_cfg.ini:$(TARGET_COPY_OUT_ODM)/vendor/etc/wifi/WCNSS_qcom_cfg.ini \
+    vendor/oneplus/caihong/proprietary/odm/vendor/firmware/antdtx.b00:$(TARGET_COPY_OUT_ODM)/vendor/firmware/antdtx.b00 \
+    vendor/oneplus/caihong/proprietary/odm/vendor/firmware/antdtx.b01:$(TARGET_COPY_OUT_ODM)/vendor/firmware/antdtx.b01 \
+    vendor/oneplus/caihong/proprietary/odm/vendor/firmware/antdtx.b02:$(TARGET_COPY_OUT_ODM)/vendor/firmware/antdtx.b02 \
+    vendor/oneplus/caihong/proprietary/odm/vendor/firmware/antdtx.b03:$(TARGET_COPY_OUT_ODM)/vendor/firmware/antdtx.b03 \
+    vendor/oneplus/caihong/proprietary/odm/vendor/firmware/antdtx.b04:$(TARGET_COPY_OUT_ODM)/vendor/firmware/antdtx.b04 \
+    vendor/oneplus/caihong/proprietary/odm/vendor/firmware/antdtx.b05:$(TARGET_COPY_OUT_ODM)/vendor/firmware/antdtx.b05 \
+    vendor/oneplus/caihong/proprietary/odm/vendor/firmware/antdtx.b06:$(TARGET_COPY_OUT_ODM)/vendor/firmware/antdtx.b06 \
+    vendor/oneplus/caihong/proprietary/odm/vendor/firmware/antdtx.b07:$(TARGET_COPY_OUT_ODM)/vendor/firmware/antdtx.b07 \
+    vendor/oneplus/caihong/proprietary/odm/vendor/firmware/antdtx.b08:$(TARGET_COPY_OUT_ODM)/vendor/firmware/antdtx.b08 \
+    vendor/oneplus/caihong/proprietary/odm/vendor/firmware/antdtx.mdt:$(TARGET_COPY_OUT_ODM)/vendor/firmware/antdtx.mdt \
     vendor/oneplus/caihong/proprietary/vendor/etc/2024-01-12_platform_RSA_license_a226ad89-a187-4b14-9447-d20bfe9dac1a.pfm:$(TARGET_COPY_OUT_VENDOR)/etc/2024-01-12_platform_RSA_license_a226ad89-a187-4b14-9447-d20bfe9dac1a.pfm \
     vendor/oneplus/caihong/proprietary/vendor/etc/clstc_config_library.xml:$(TARGET_COPY_OUT_VENDOR)/etc/clstc_config_library.xml \
     vendor/oneplus/caihong/proprietary/vendor/etc/display/DPU1010.xml:$(TARGET_COPY_OUT_VENDOR)/etc/display/DPU1010.xml \
@@ -516,6 +526,19 @@ PRODUCT_PACKAGES += \
     vendor.qti.hardware.camera.offlinecamera-service-impl \
     vendor.qti.hardware.camera.postproc@1.0-service-impl \
     vendor.qti.hardware.qdutils_disp@1.0 \
+    libQnnHtp.aiboost \
+    libQnnHtpPrepare.aiboost \
+    libQnnHtpV75Stub.aiboost \
+    libQnnSystem.aiboost \
+    libQnnHtpV75Skel.signed.aiframe \
+    libQnnHtpV75Skel.unsigned.aiframe \
+    libQnnHtp.aiframe \
+    libQnnHtpPrepare.aiframe \
+    libQnnHtpV75Stub.aiframe \
+    libQnnSystem.aiframe \
+    libaiboost_qnn_external_delegate \
+    libqcom_llm \
+    libtransformer_lite \
     com.qti.sensor.sc1320cs \
     com.qti.sensor.sc820cs \
     com.oplus.node.mvgsat \
@@ -572,6 +595,14 @@ PRODUCT_PACKAGES += \
     libPlatformValidatorShared \
     libPolarrRender \
     libPreviewDecisionOld \
+    libQnnCpu \
+    libQnnGpu \
+    libQnnHtp \
+    libQnnHtpPrepare \
+    libQnnHtpV75CalculatorStub \
+    libQnnHtpV75Stub \
+    libQnnSaver \
+    libQnnSystem \
     libRedeyeReduce \
     libSNPE \
     libSnpeHta \
@@ -593,6 +624,13 @@ PRODUCT_PACKAGES += \
     libaecCustom \
     libaecCustomParamParser \
     libafCustomParamParser \
+    libaiboost \
+    libaiboost_llm \
+    libaiboost_qnn_external_delegate_te \
+    libaiboost_qnn_sr \
+    libaiboost_sr \
+    libaiboost_te \
+    libaiboost_ubwc \
     libaideblur \
     libaisal \
     libaisd \
@@ -653,6 +691,7 @@ PRODUCT_PACKAGES += \
     libexif-jpeg-aps \
     libextendfile \
     libextensionlayer \
+    libhta_hexagon_runtime_snpe \
     libhwconfigurationutil \
     libhybridraw \
     libhybridsr_datas \
@@ -717,6 +756,22 @@ PRODUCT_PACKAGES += \
     vendor.pixelworks.hardware.display@1.2 \
     vendor.pixelworks.hardware.feature@1.0 \
     vendor.pixelworks.hardware.feature@1.1 \
+    libQnnHtpV75Skel.aiboost \
+    libaiboostubwc_skel.aiboost \
+    capi_v3_oprec \
+    libCalculator_skel \
+    libQnnHtpV75 \
+    libQnnHtpV75Skel \
+    libQnnSaver \
+    libSnpeHtpV75Skel \
+    libSuperRawPost_skel \
+    libaisr_skel \
+    libarc_htp_driver_skel \
+    libcalculator_skel \
+    libhvxFaceBeautyPre_skel \
+    libktveffect \
+    libvdblurless_5.0.2_skel \
+    libvdsuperphoto_skel \
     libQnnHtpV75Skel.oplusmss.aiboost \
     vendor.qti.camera.aon-impl.xml \
     vendor.qti.camera.offlinecamera-impl.xml \
