@@ -257,6 +257,7 @@ PRODUCT_PACKAGES += \
     com.qti.hwcfg.bps \
     com.qti.hwcfg.ife \
     com.qti.hwcfg.ipe \
+    com.qti.hwcfg.tfe \
     com.qti.node.afbfusion \
     com.qti.node.aon \
     com.qti.node.customhwnode \
@@ -598,6 +599,7 @@ PRODUCT_PACKAGES += \
     libaiseg \
     libaisr \
     libalCFR \
+    libalog \
     libancbase_rt_fusion \
     libancbase_segbase \
     libancbase_segment \
@@ -697,6 +699,12 @@ PRODUCT_PACKAGES += \
     libyuv2 \
     libyuvwrapper \
     libzlib \
+    libQnnHtp.oplusmss \
+    libQnnHtpPrepare.oplusmss \
+    libQnnHtpV75Stub.oplusmss \
+    libQnnSystem.oplusmss \
+    libaiboost.oplusmss \
+    libaiboost_qnn_external_delegate.oplusmss \
     vendor.oplus.hardware.camera_rfi-V1-ndk \
     vendor.oplus.hardware.camera_rfi-V1-service-impl \
     vendor.oplus.hardware.cammidasservice-V1-ndk \
@@ -709,6 +717,7 @@ PRODUCT_PACKAGES += \
     vendor.pixelworks.hardware.display@1.2 \
     vendor.pixelworks.hardware.feature@1.0 \
     vendor.pixelworks.hardware.feature@1.1 \
+    libQnnHtpV75Skel.oplusmss.aiboost \
     vendor.qti.camera.aon-impl.xml \
     vendor.qti.camera.offlinecamera-impl.xml \
     vendor.qti.camera.postproc-impl.xml \

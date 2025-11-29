@@ -278,6 +278,13 @@
             "com.instagram.android",
             "com.facebook.katana"
         ],
+        "paralle_win_list": [
+            "com.jingdong.app.mall",
+            "com.sankuai.meituan",
+            "tv.danmaku.bili",
+            "com.ss.android.ugc.trill",
+            "com.UCMobile"
+        ],
         "request_time_out": [
             "com.tencent.mm"
         ],
