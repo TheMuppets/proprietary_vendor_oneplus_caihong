@@ -756,23 +756,23 @@ PRODUCT_PACKAGES += \
     vendor.pixelworks.hardware.display@1.2 \
     vendor.pixelworks.hardware.feature@1.0 \
     vendor.pixelworks.hardware.feature@1.1 \
-    libQnnHtpV75Skel.aiboost \
-    libaiboostubwc_skel.aiboost \
-    capi_v3_oprec \
-    libCalculator_skel \
-    libQnnHtpV75 \
-    libQnnHtpV75Skel \
-    libQnnSaver \
-    libSnpeHtpV75Skel \
-    libSuperRawPost_skel \
-    libaisr_skel \
-    libarc_htp_driver_skel \
-    libcalculator_skel \
-    libhvxFaceBeautyPre_skel \
-    libktveffect \
-    libvdblurless_5.0.2_skel \
-    libvdsuperphoto_skel \
-    libQnnHtpV75Skel.oplusmss.aiboost \
+    odm_lib_rfsa_adsp_aiboost_signed_libQnnHtpV75Skel_so \
+    odm_lib_rfsa_adsp_aiboost_signed_libaiboostubwc_skel_so \
+    odm_lib_rfsa_adsp_capi_v3_oprec_so \
+    odm_lib_rfsa_adsp_libCalculator_skel_so \
+    odm_lib_rfsa_adsp_libQnnHtpV75_so \
+    odm_lib_rfsa_adsp_libQnnHtpV75Skel_so \
+    odm_lib_rfsa_adsp_libQnnSaver_so \
+    odm_lib_rfsa_adsp_libSnpeHtpV75Skel_so \
+    odm_lib_rfsa_adsp_libSuperRawPost_skel_so \
+    odm_lib_rfsa_adsp_libaisr_skel_so \
+    odm_lib_rfsa_adsp_libarc_htp_driver_skel_so \
+    odm_lib_rfsa_adsp_libcalculator_skel_so \
+    odm_lib_rfsa_adsp_libhvxFaceBeautyPre_skel_so \
+    odm_lib_rfsa_adsp_libktveffect_so \
+    odm_lib_rfsa_adsp_libvdblurless_5_0_2_skel_so \
+    odm_lib_rfsa_adsp_libvdsuperphoto_skel_so \
+    odm_lib_rfsa_adsp_oplusmss_unsigned_libQnnHtpV75Skel_so \
     vendor.qti.camera.aon-impl.xml \
     vendor.qti.camera.offlinecamera-impl.xml \
     vendor.qti.camera.postproc-impl.xml \
