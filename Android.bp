@@ -3805,6 +3805,7 @@ cc_prebuilt_library_shared {
                 "libosensenativeproxy_client",
                 "com.qti.chi.override",
                 "libchilog",
+                "libhwconfigurationutil_vendor",
                 "libz",
                 "libc",
                 "libm",
