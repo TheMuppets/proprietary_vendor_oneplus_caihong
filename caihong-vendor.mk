@@ -23,6 +23,7 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/caihong/proprietary/odm/etc/init/hw/init.oplus.display.rc:$(TARGET_COPY_OUT_ODM)/etc/init/hw/init.oplus.display.rc \
     vendor/oneplus/caihong/proprietary/odm/etc/init/init.audio.rc:$(TARGET_COPY_OUT_ODM)/etc/init/init.audio.rc \
     vendor/oneplus/caihong/proprietary/odm/etc/init/init.nvram.rc:$(TARGET_COPY_OUT_ODM)/etc/init/init.nvram.rc \
+    vendor/oneplus/caihong/proprietary/odm/etc/init/vendor.oplus.hardware.biometrics.face@1.0-service.rc:$(TARGET_COPY_OUT_ODM)/etc/init/vendor.oplus.hardware.biometrics.face@1.0-service.rc \
     vendor/oneplus/caihong/proprietary/odm/etc/init/vendor.oplus.hardware.cammidasservice-V1-service.rc:$(TARGET_COPY_OUT_ODM)/etc/init/vendor.oplus.hardware.cammidasservice-V1-service.rc \
     vendor/oneplus/caihong/proprietary/odm/etc/init/vendor.oplus.hardware.displaypanelfeature-service.rc:$(TARGET_COPY_OUT_ODM)/etc/init/vendor.oplus.hardware.displaypanelfeature-service.rc \
     vendor/oneplus/caihong/proprietary/odm/etc/init/vendor.oplus.hardware.pogo_keyboard-service.rc:$(TARGET_COPY_OUT_ODM)/etc/init/vendor.oplus.hardware.pogo_keyboard-service.rc \
@@ -108,6 +109,7 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/caihong/proprietary/odm/firmware/ufs/ufs_version_config.xml:$(TARGET_COPY_OUT_ODM)/firmware/ufs/ufs_version_config.xml \
     vendor/oneplus/caihong/proprietary/odm/firmware/wireless_pen/23976/cps8601_firmware.bin:$(TARGET_COPY_OUT_ODM)/firmware/wireless_pen/23976/cps8601_firmware.bin \
     vendor/oneplus/caihong/proprietary/odm/firmware/wireless_pen/23978/cps8601_firmware.bin:$(TARGET_COPY_OUT_ODM)/firmware/wireless_pen/23978/cps8601_firmware.bin \
+    vendor/oneplus/caihong/proprietary/odm/init.oplus.face.rc:$(TARGET_COPY_OUT_ODM)/init.oplus.face.rc \
     vendor/oneplus/caihong/proprietary/odm/lib64/camera/awb_parameter_default.bin:$(TARGET_COPY_OUT_ODM)/lib64/camera/awb_parameter_default.bin \
     vendor/oneplus/caihong/proprietary/odm/lib64/camera/awb_parameter_lce_sc1320cs.bin:$(TARGET_COPY_OUT_ODM)/lib64/camera/awb_parameter_lce_sc1320cs.bin \
     vendor/oneplus/caihong/proprietary/odm/lib64/camera/awb_parameter_lce_sc820cs.bin:$(TARGET_COPY_OUT_ODM)/lib64/camera/awb_parameter_lce_sc820cs.bin \
@@ -134,6 +136,16 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/caihong/proprietary/odm/vendor/firmware/antdtx.b07:$(TARGET_COPY_OUT_ODM)/vendor/firmware/antdtx.b07 \
     vendor/oneplus/caihong/proprietary/odm/vendor/firmware/antdtx.b08:$(TARGET_COPY_OUT_ODM)/vendor/firmware/antdtx.b08 \
     vendor/oneplus/caihong/proprietary/odm/vendor/firmware/antdtx.mdt:$(TARGET_COPY_OUT_ODM)/vendor/firmware/antdtx.mdt \
+    vendor/oneplus/caihong/proprietary/odm/vendor/firmware/facereg.b00:$(TARGET_COPY_OUT_ODM)/vendor/firmware/facereg.b00 \
+    vendor/oneplus/caihong/proprietary/odm/vendor/firmware/facereg.b01:$(TARGET_COPY_OUT_ODM)/vendor/firmware/facereg.b01 \
+    vendor/oneplus/caihong/proprietary/odm/vendor/firmware/facereg.b02:$(TARGET_COPY_OUT_ODM)/vendor/firmware/facereg.b02 \
+    vendor/oneplus/caihong/proprietary/odm/vendor/firmware/facereg.b03:$(TARGET_COPY_OUT_ODM)/vendor/firmware/facereg.b03 \
+    vendor/oneplus/caihong/proprietary/odm/vendor/firmware/facereg.b04:$(TARGET_COPY_OUT_ODM)/vendor/firmware/facereg.b04 \
+    vendor/oneplus/caihong/proprietary/odm/vendor/firmware/facereg.b05:$(TARGET_COPY_OUT_ODM)/vendor/firmware/facereg.b05 \
+    vendor/oneplus/caihong/proprietary/odm/vendor/firmware/facereg.b06:$(TARGET_COPY_OUT_ODM)/vendor/firmware/facereg.b06 \
+    vendor/oneplus/caihong/proprietary/odm/vendor/firmware/facereg.b07:$(TARGET_COPY_OUT_ODM)/vendor/firmware/facereg.b07 \
+    vendor/oneplus/caihong/proprietary/odm/vendor/firmware/facereg.b08:$(TARGET_COPY_OUT_ODM)/vendor/firmware/facereg.b08 \
+    vendor/oneplus/caihong/proprietary/odm/vendor/firmware/facereg.mdt:$(TARGET_COPY_OUT_ODM)/vendor/firmware/facereg.mdt \
     vendor/oneplus/caihong/proprietary/vendor/etc/2024-01-12_platform_RSA_license_a226ad89-a187-4b14-9447-d20bfe9dac1a.pfm:$(TARGET_COPY_OUT_VENDOR)/etc/2024-01-12_platform_RSA_license_a226ad89-a187-4b14-9447-d20bfe9dac1a.pfm \
     vendor/oneplus/caihong/proprietary/vendor/etc/clstc_config_library.xml:$(TARGET_COPY_OUT_VENDOR)/etc/clstc_config_library.xml \
     vendor/oneplus/caihong/proprietary/vendor/etc/display/DPU1010.xml:$(TARGET_COPY_OUT_VENDOR)/etc/display/DPU1010.xml \
@@ -390,6 +402,7 @@ PRODUCT_PACKAGES += \
     libbacklight-calib \
     libbitmlengine \
     libbitmlenginev2 \
+    libcamera2ndk_vendor \
     libcamerapostproc \
     libcamxcommonutils \
     libcamxexternalformatutils \
@@ -718,6 +731,7 @@ PRODUCT_PACKAGES += \
     libstblur_capture_api \
     libstface_datas \
     libstface_fd_api \
+    libstfaceunlockocl \
     libstfd_mobile_api \
     libtensorflowlite_oplus \
     libtfa98xx \
@@ -770,6 +784,7 @@ PRODUCT_PACKAGES += \
     manifest_oplus_cammidasservice_aidl.xml \
     manifest_oplus_cwb_aidl.xml \
     manifest_oplus_displaypanelfeature_aidl.xml \
+    manifest_oplus_face.xml \
     manifest_oplus_sendextcamcmd.xml \
     vendor.oplus.hardware.pogo_keyboard.xml \
     feature_enabler_client \
@@ -780,6 +795,7 @@ PRODUCT_PACKAGES += \
     ppd \
     qdcmss \
     cwb_utils_aidl \
+    vendor.oplus.hardware.biometrics.face@1.0-service \
     vendor.oplus.hardware.cammidasservice-V1-service \
     vendor.oplus.hardware.displaypanelfeature-service \
     vendor.oplus.hardware.pogo_keyboard-service \
