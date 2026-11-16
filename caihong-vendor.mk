@@ -162,6 +162,7 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/caihong/proprietary/vendor/etc/init/vendor.qti.camera.provider-service_64.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.camera.provider-service_64.rc \
     vendor/oneplus/caihong/proprietary/vendor/etc/init/vendor.qti.hardware.display.color-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.hardware.display.color-service.rc \
     vendor/oneplus/caihong/proprietary/vendor/etc/media_codecs_dolby_vision.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_codecs_dolby_vision.xml \
+    vendor/oneplus/caihong/proprietary/vendor/etc/media_profiles_pineapple.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_profiles_pineapple.xml \
     vendor/oneplus/caihong/proprietary/vendor/etc/oem_51_prj_OppoLTM8650_1689712162019.pfm:$(TARGET_COPY_OUT_VENDOR)/etc/oem_51_prj_OppoLTM8650_1689712162019.pfm \
     vendor/oneplus/caihong/proprietary/vendor/etc/snapdragon_color_libs_config.xml:$(TARGET_COPY_OUT_VENDOR)/etc/snapdragon_color_libs_config.xml \
     vendor/oneplus/caihong/proprietary/vendor/firmware/CAMERA_ICP.b00:$(TARGET_COPY_OUT_VENDOR)/firmware/CAMERA_ICP.b00 \
